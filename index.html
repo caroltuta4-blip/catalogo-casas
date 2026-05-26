@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria Casanare - Catálogo de Propiedades</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Hacienda&Hogar</h1>
+        </div>
+        <button id="theme-toggle" class="btn-toggle" aria-label="Cambiar tema">🌙 Modo Oscuro</button>
+    </header>
+
+    <main>
+        <section class="search-container">
+            <input type="text" id="search-input" placeholder="Buscar por ubicación, tipo de casa o descripción (ej. Campestre, Yopal)...">
+        </section>
+
+        <p id="no-results" class="hidden">No se encontraron propiedades que coincidan con tu búsqueda.</p>
+
+        <section class="catalog-grid" id="catalog-grid">
+            
+            <article class="card">
+                <img src="assets/casa campestre.jpg" alt="Casa Campestre Moderna en Yopal">
+                <div class="card-content">
+                    <h3>Casa Campestre Moderna</h3>
+                    <p class="location">📍 Yopal, Casanare</p>
+                    <p class="description">Hermosa casa de campo con acabados de lujo, amplios ventanales, piscina privada y diseño arquitectónico abierto ideal para el clima tropical.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="assets/morro2.jpg" alt="Chalet de Montaña Tradicional">
+                <div class="card-content">
+                    <h3>Chalet de Montaña</h3>
+                    <p class="location">📍 Morro Alto</p>
+                    <p class="description">Acogedor chalet construido en madera fina y piedra natural. Cuenta con chimenea tradicional, terraza con vista panorámica y senderos ecológicos.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="assets/apartamento.jpg" alt="Apartamento Loft Urbano">
+                <div class="card-content">
+                    <h3>Loft Ejecutivo Urbano</h3>
+                    <p class="location">📍 Zona Centro</p>
+                    <p class="description">Apartamento estilo industrial de un solo ambiente de doble altura. Perfecto para profesionales, con cocina integral y conectividad inteligente.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="assets/casa 4 niveles.jpg" alt="Residencia Familiar San José">
+                <div class="card-content">
+                    <h3>Residencia Familiar</h3>
+                    <p class="location">📍 Barrio San José</p>
+                    <p class="description">Casa espaciosa de dos niveles, 4 habitaciones, garaje subterráneo para dos vehículos y un patio trasero amplio ideal para niños y mascotas.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="assets/casaconpiscina.jpg" alt="Villa Minimalista con Vista al Valle">
+                <div class="card-content">
+                    <h3>Villa Minimalista Premium</h3>
+                    <p class="location">📍 Mirador del Valle</p>
+                    <p class="description">Diseño vanguardista de líneas rectas y colores neutros. Cuenta con domótica integrada, paneles solares y piscina de borde infinito.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="assets/casaquinta.jpg" alt="Casa Quinta Tradicional Llanera">
+                <div class="card-content">
+                    <h3>Casa Quinta Tradicional</h3>
+                    <p class="location">📍 Afueras de la Ciudad</p>
+                    <p class="description">Estructura típica con amplios corredores perimetrales para colgar hamacas, techos frescos de teja de barro y rodeada de árboles frutales.</p>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Hacienda&Hogar - Catálogo Inmobiliario Interactivo</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
